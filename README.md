@@ -34,6 +34,9 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 Developed by:D.Varshini
 RegisterNumber:212223230234
 
+*/
+
+```
 module ex09( input clk, rst_n, input t, 
 output reg q, 
 output q_bar 
@@ -51,8 +54,7 @@ end
 end 
 assign q_bar = ~q; 
 endmodule
-
-*/
+```
 
 **RTL LOGIC FOR SISO Shift Register**
 
